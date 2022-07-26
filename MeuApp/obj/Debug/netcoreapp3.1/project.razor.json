@@ -12432,6 +12432,23 @@
         }
       },
       {
+        "HashCode": -707496252,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CarrinhoViewComponentTagHelper",
+        "AssemblyName": "MeuApp",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:carrinho"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CarrinhoViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Carrinho"
+        }
+      },
+      {
         "HashCode": -1720946919,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -14414,6 +14431,11 @@
     {
       "FilePath": "c:\\Projeto\\Git\\.net\\ASP.NET\\3.1\\MeuApp\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Projeto\\Git\\.net\\ASP.NET\\3.1\\MeuApp\\Views\\Shared\\Components\\Carrinho\\default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\Carrinho\\default.cshtml",
       "FileKind": "mvc"
     },
     {

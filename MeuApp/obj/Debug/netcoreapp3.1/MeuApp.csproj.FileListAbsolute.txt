@@ -36,3 +36,4 @@ C:\Projeto\Git\.net\ASP.NET\3.1\MeuApp\obj\Debug\netcoreapp3.1\MeuApp.genruntime
 C:\Projeto\Git\.net\ASP.NET\3.1\MeuApp\obj\Debug\netcoreapp3.1\MeuApp.csproj.CopyComplete
 C:\Projeto\Git\.net\ASP.NET\3.1\MeuApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AvisoGeral.cshtml.g.cs
 C:\Projeto\Git\.net\ASP.NET\3.1\MeuApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Carrinho\default.cshtml.g.cs
+C:\Projeto\Git\.net\ASP.NET\3.1\MeuApp\obj\Debug\netcoreapp3.1\Razor\Views\Filmes\Adicionar.cshtml.g.cs

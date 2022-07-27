@@ -20,7 +20,7 @@ namespace MeuApp.Models
         [Required(ErrorMessage = "Ocampo Data de Lancamento é obrigatório")]//aciona uma validação
         [Display(Name = "Data de Lançamento")]//?
         public DateTime DataLancamento { get; set; }
-
+        [Required(ErrorMessage = "Ocampo Data de Genero é obrigatório")]//aciona uma validação
         [RegularExpression(@"^[A-Z]+[a-zA-Z\u00C0-\u00FF""'\w-]*$", ErrorMessage = "Genero em formato invalido ( Teste ) ")]//validação
         [StringLength(30, ErrorMessage = "maximo de 30 caracteres!! ")]//validação
         public string Genero { get; set; }
@@ -36,7 +36,7 @@ namespace MeuApp.Models
 
         [Required(ErrorMessage = "Preencha a avaliação")]//validação
         [Display(Name = "Avaliação")]
-        [RegularExpression(@"^[0-5]*$", ErrorMessage = "Spmente numeros !")]//validação
+        [RegularExpression(@"^[0-5]*$", ErrorMessage = "Spmente numeros entre 0 e 5!")]//validação
         public int Avaliacao { get; set; }
 
     }

@@ -216,3 +216,4 @@ C:\Projeto\Git\.net\ASP.NET\Projeto\Projeto\StartLooping\src\dev.appModelo\obj\D
 C:\Projeto\Git\.net\ASP.NET\Projeto\Projeto\StartLooping\src\dev.appModelo\obj\Debug\netcoreapp3.1\dev.appModelo.dll
 C:\Projeto\Git\.net\ASP.NET\Projeto\Projeto\StartLooping\src\dev.appModelo\obj\Debug\netcoreapp3.1\dev.appModelo.pdb
 C:\Projeto\Git\.net\ASP.NET\Projeto\Projeto\StartLooping\src\dev.appModelo\obj\Debug\netcoreapp3.1\dev.appModelo.genruntimeconfig.cache
+C:\Projeto\Git\.net\ASP.NET\Projeto\Projeto\StartLooping\src\dev.appModelo\obj\Debug\netcoreapp3.1\Razor\Areas\Produtos\Views\_ViewStart.cshtml.g.cs

@@ -14433,6 +14433,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Projeto\\Git\\.net\\ASP.NET\\Projeto\\Projeto\\ASP.NET.3.2-NewProject\\StartLooping\\src\\dev.appModelo\\Areas\\Vendas\\Views\\Pedidos\\Index.cshtml",
+      "TargetPath": "Areas\\Vendas\\Views\\Pedidos\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Projeto\\Git\\.net\\ASP.NET\\Projeto\\Projeto\\ASP.NET.3.2-NewProject\\StartLooping\\src\\dev.appModelo\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -14445,6 +14450,11 @@
     {
       "FilePath": "c:\\Projeto\\Git\\.net\\ASP.NET\\Projeto\\Projeto\\ASP.NET.3.2-NewProject\\StartLooping\\src\\dev.appModelo\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Projeto\\Git\\.net\\ASP.NET\\Projeto\\Projeto\\ASP.NET.3.2-NewProject\\StartLooping\\src\\dev.appModelo\\Areas\\Vendas\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Vendas\\Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {

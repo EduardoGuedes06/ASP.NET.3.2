@@ -328,3 +328,5 @@ C:\Projeto\Git\.net\ASP.NET\Projeto\Projeto\ASP.NET.3.2-NewProject\StartLooping\
 C:\Projeto\Git\.net\ASP.NET\Projeto\Projeto\ASP.NET.3.2-NewProject\StartLooping\src\dev.appModelo\obj\Debug\netcoreapp3.1\dev.appModelo.pdb
 C:\Projeto\Git\.net\ASP.NET\Projeto\Projeto\ASP.NET.3.2-NewProject\StartLooping\src\dev.appModelo\obj\Debug\netcoreapp3.1\dev.appModelo.genruntimeconfig.cache
 C:\Projeto\Git\.net\ASP.NET\Projeto\Projeto\ASP.NET.3.2-NewProject\StartLooping\src\dev.appModelo\obj\Debug\netcoreapp3.1\Razor\Areas\Produtos\Views\Cadastro\Busca.cshtml.g.cs
+C:\Projeto\Git\.net\ASP.NET\Projeto\Projeto\ASP.NET.3.2-NewProject\StartLooping\src\dev.appModelo\obj\Debug\netcoreapp3.1\Razor\Areas\Vendas\Views\Pedidos\Index.cshtml.g.cs
+C:\Projeto\Git\.net\ASP.NET\Projeto\Projeto\ASP.NET.3.2-NewProject\StartLooping\src\dev.appModelo\obj\Debug\netcoreapp3.1\Razor\Areas\Vendas\Views\_ViewStart.cshtml.g.cs

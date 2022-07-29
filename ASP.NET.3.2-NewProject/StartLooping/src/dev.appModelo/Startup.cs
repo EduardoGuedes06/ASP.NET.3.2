@@ -1,3 +1,4 @@
+using dev.appModelo.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -18,6 +19,8 @@ namespace dev.appModelo
         {
             services.AddMvc(opção => opção.EnableEndpointRouting = false).SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
 
+            services.AddTransient<IPedidoRepository, PedidoRepository>();
+
 
         }
 
@@ -33,9 +36,8 @@ namespace dev.appModelo
 
             app.UseMvc(routes =>
             {
-                routes.MapRoute("AreaProdutos", "Produtos", "Produtos/{controller=Cadastro}/{action=Index}/{id?}");
-                routes.MapRoute("AreaVendas", "Vendas", "Vendas/{controller=Pedidos}/{action=Index}/{id?}");
 
+                routes.MapRoute("areas", "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
                 routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
             });

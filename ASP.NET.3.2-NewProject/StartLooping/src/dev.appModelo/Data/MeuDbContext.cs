@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using dev.appModelo.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace dev.appModelo.Data
 {
@@ -10,6 +11,8 @@ namespace dev.appModelo.Data
         {
 
         }
+
+        public DbSet<Produto> Produtos { get; set; }
 
     }
 

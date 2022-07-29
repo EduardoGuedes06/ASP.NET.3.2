@@ -1,1 +1,6 @@
-﻿Ola!
+﻿@using dev.appModelo.Data
+@inject IPedidoRepository PedidoRepository
+
+olá
+
+@PedidoRepository.ObterPedido().Id;

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qqNeUN3NIDLjOCZUTi7cEcI/lkVf+zcYUaIqyl6jmHXxLZDCr7J7dd9SHh80FdaTEXnLvAhOgu+WVM2G3em4Vw==",
+  "dgSpecHash": "5YhDuK+/1AdAD8ixf6QNr/FfIw/EADaPqkRnvqh67KiLsH8cubVpO2vZWCy6MdXiW1Tkd4MbBVJsBGjzxhgccA==",
   "success": true,
   "projectFilePath": "C:\\Eduardo\\Git\\AspNetCoreIdentity\\AspNetCoreIdentity.csproj",
   "expectedPackageFiles": [
@@ -41,7 +41,7 @@
     "C:\\Users\\TT - SMSA\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.17\\microsoft.entityframeworkcore.analyzers.5.0.17.nupkg.sha512",
     "C:\\Users\\TT - SMSA\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.17\\microsoft.entityframeworkcore.design.5.0.17.nupkg.sha512",
     "C:\\Users\\TT - SMSA\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.17\\microsoft.entityframeworkcore.relational.5.0.17.nupkg.sha512",
-    "C:\\Users\\TT - SMSA\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.17\\microsoft.entityframeworkcore.sqlserver.5.0.17.nupkg.sha512",
+    "C:\\Users\\TT - SMSA\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.0\\microsoft.entityframeworkcore.sqlserver.5.0.0.nupkg.sha512",
     "C:\\Users\\TT - SMSA\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.17\\microsoft.entityframeworkcore.tools.5.0.17.nupkg.sha512",
     "C:\\Users\\TT - SMSA\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\TT - SMSA\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",

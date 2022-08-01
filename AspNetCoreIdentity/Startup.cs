@@ -1,6 +1,9 @@
+using AspNetCoreIdentity.Areas.Identity.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -24,6 +27,14 @@ namespace AspNetCoreIdentity
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<AspNetCoreIdentityContext>(options =>
+            options.UseSqlServer(
+            Configuration.GetConnectionString("AspNetCoreIdentityContextConnection")));
+
+            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                .AddDefaultUI()
+                .AddEntityFrameworkStores<AspNetCoreIdentityContext>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,8 +54,11 @@ namespace AspNetCoreIdentity
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseRouting();
 
-            app.UseAuthorization();
+            //app.UseCookiePolicy();
+
+            app.UseAuthentication();
 
             app.UseEndpoints(endpoints =>
             {
